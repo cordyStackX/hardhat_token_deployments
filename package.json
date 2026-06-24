@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy" : "HOME=/tmp/hardhat-home XDG_CONFIG_HOME=/tmp/hardhat-config XDG_DATA_HOME=/tmp/hardhat-data npx hardhat run scripts/deploy.js --network sepolia"
+    "deploy": "HOME=/tmp/hardhat-home XDG_CONFIG_HOME=/tmp/hardhat-config XDG_DATA_HOME=/tmp/hardhat-data npx hardhat run scripts/deploy.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.3.0",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.6.1"
   }
 }
